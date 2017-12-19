@@ -38,7 +38,7 @@ Lo más intensivo posible, sin que nos explote la cabeza ni a ti ni a mí:
 
 #### Vale, vale... pero ¿cuánto cuesta el curso?
 
-El precio total del curso ser de 10€.
+El precio total del curso será de 10€.
 
 #### ¿A santo de qué viene este curso?
 
