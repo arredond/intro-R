@@ -6,7 +6,7 @@
 
 En este curso en concreto podrás aprender los cimientos de cualquier lenguaje de programación (tipos de variables, creación de funciones...) pero también nos centraremos en una de las habilidades más importantes para un Ingeniero/a del Medio Natural: _el análisis y la visualización de datos._
 
-Si te interesa apuntarte, por favor rellena [este pequeño formulario](https://goo.gl/forms/I68QofWpCVUkWKAk1)
+Puedes apuntarte en [el siguiente formulario:](https://goo.gl/forms/I68QofWpCVUkWKAk1)
 
 #### ¿Para qué quiero aprender a programar? No voy a ser informático/a ni nada de eso...
 
@@ -28,20 +28,22 @@ Al final, no importa tanto qué lenguaje uses. Yo empecé en R y, pese a haber u
 
 #### ¿Cómo va a ser el curso?
 
-Lo más intensivo posible, sin que nos explote la cabeza ni a ti ni a mí.
+Lo más intensivo posible, sin que nos explote la cabeza ni a ti ni a mí:
 
-La idea es que sea un curso de 10 horas, repartidas en dos horas al día a lo largo de una semana (L - V). Que sea por la tarde o por la mañana dependerá de lo que más convenga a la gente intersada.
+- **Duración total**: 10 horas
+- Del **12 al 16 de febrero** (L - V)
+- **Horario:** 16:00 a 18:00
+- **Lugar:** Aula 2 de la antigua E.U.I.T. Forestal
 
-En cuanto a fechas, seguramente tenga lugar en la tercera semana de febrero (12 al 16), antes de que el cuatrimestre se os ponga complicado.
 
 #### Vale, vale... pero ¿cuánto cuesta el curso?
 
-_Casi nada_. Aún tengo que decidir un precio pero con toda seguridad no excederá los 5 - 10€, dependiendo del número de participantes.
+El precio total del curso ser de 10€.
 
-#### Entonces, ¿por qué lo haces?
+#### ¿A santo de qué viene este curso?
 
 Porque quiero devolver a la Escuela al menos una parte de lo mucho que me ha dado a mí. Pese a todo lo que aprendí, al acabar el Grado noté, como muchos otros/as, que me faltaban habilidades técnicas. La más flagrante: saber programar.
 
-Casi todo lo que he aprendido, lo he aprendido por mi cuenta. Y, aunque es una manera excelente de aprender, también lo es de frustrarse. 
+Casi todo lo que he aprendido lo he aprendido por mi cuenta. Y, aunque es una manera excelente de aprender, también lo es de frustrarse. 
 
 Tener a alguien que te señale dónde buscar, qué es importante y qué no, es un empujón para aprender esta habilidad fundamental. Yo no lo tuve pero, si quieres, tú si lo puedes tener.
