@@ -33,20 +33,6 @@ Se me ocurren muchas razones; aquí dejo unas pocas:
 
 Al final, no importa tanto qué lenguaje uses. Yo empecé en R y, pese a haber utilizado otros muchos desde entonces (MATLAB, Python, JavaScript...), sigo volviendo a él para realizar la mayoría de mis tareas.
 
-#### ¿Cómo va a ser el curso?
-
-Lo más intensivo posible, sin que nos explote la cabeza ni a ti ni a mí:
-
-- **Duración total**: 10 horas
-- Del **12 al 16 de febrero** (L - V)
-- **Horario:** 16:00 a 18:00
-- **Lugar:** Aula 2 de la antigua E.U.I.T. Forestal
-
-
-#### Vale, vale... pero ¿cuánto cuesta el curso?
-
-El precio total del curso será de 10€.
-
 #### ¿A santo de qué viene este curso?
 
 Porque quiero devolver a la Escuela al menos una parte de lo mucho que me ha dado a mí. Pese a todo lo que aprendí, al acabar el Grado noté, como muchos otros/as, que me faltaban habilidades técnicas. La más flagrante: saber programar.
