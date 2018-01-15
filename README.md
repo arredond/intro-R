@@ -1,3 +1,10 @@
+# Intro-R
+- **Duración total**: 10 horas
+- Del **12 al 16 de febrero** (L - V)
+- **Horario:** 16:00 a 18:00
+- **Lugar:** Aula 2 de la antigua E.U.I.T. Forestal
+- **Precio:** 10€
+
 ## Introducción a la programación en R
 
 ¡Hola! Si estás leyendo esto, te estás planteando aprender a programar. O simplemente has hecho click en un link porque te aburrías. Puede que incluso lo hayas hecho sin querer. Sea como fuere, déjame que te diga una cosa:
@@ -6,7 +13,7 @@
 
 En este curso en concreto podrás aprender los cimientos de cualquier lenguaje de programación (tipos de variables, creación de funciones...) pero también nos centraremos en una de las habilidades más importantes para un Ingeniero/a del Medio Natural: _el análisis y la visualización de datos._
 
-Puedes apuntarte haciendo click [en este formulario.](https://goo.gl/forms/I68QofWpCVUkWKAk1)
+Puedes apuntarte haciendo click [en este formulario.](https://goo.gl/forms/Ofg1cqz99lGEPdMA3)
 
 #### ¿Para qué quiero aprender a programar? No voy a ser informático/a ni nada de eso...
 
