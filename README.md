@@ -5,6 +5,8 @@
 - **Lugar:** Aula 2 de la antigua E.U.I.T. Forestal
 - **Precio:** 10€
 
+**_IMPORTANTE_**: Este curso está completo. Si quieres apuntarte a la lista de espera puedes hacerlo [aquí](https://goo.gl/forms/Ofg1cqz99lGEPdMA3)
+
 ## Introducción a la programación en R
 
 ¡Hola! Si estás leyendo esto, te estás planteando aprender a programar. O simplemente has hecho click en un link porque te aburrías. Puede que incluso lo hayas hecho sin querer. Sea como fuere, déjame que te diga una cosa:
