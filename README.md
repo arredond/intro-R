@@ -2,7 +2,7 @@
 - **Duración total**: 10 horas
 - Del **12 al 16 de febrero** (L - V)
 - **Horario:** 16:00 a 18:00
-- **Lugar:** Aula 2 de la antigua E.U.I.T. Forestal
+- **Lugar:** Aula de Dibujo de la antigua E.U.I.T. Forestal
 - **Precio:** 10€
 
 **_IMPORTANTE_**: Este curso está completo. Si quieres apuntarte a la lista de espera puedes hacerlo [aquí](https://goo.gl/forms/Ofg1cqz99lGEPdMA3)
