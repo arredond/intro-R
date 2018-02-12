@@ -63,6 +63,7 @@ presentacion <- function(nombre, comida_preferida = "murciélagos"){
   paste("Hola, me llamo", nombre, "y me encanta comer", comida_preferida)
 }
 presentacion("Ozzy")
+presentacion("Ozzy", "tofu")
 ~~~
 
 Por defecto, R devuelve lo que haya en la última línea de la función. Sin embargo, a veces queremos que nuestra función devuelva otra cosa. Para ello podemos usar el comando `return`. Veremos más sobre esto en el apartado de estructuras de control.
