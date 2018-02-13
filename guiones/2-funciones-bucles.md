@@ -63,7 +63,7 @@ presentacion <- function(nombre, comida_preferida = "murciélagos"){
   paste("Hola, me llamo", nombre, "y me encanta comer", comida_preferida)
 }
 presentacion("Ozzy")
-presentacion("Ozzy", "tofu")
+presentacion("tofu")
 ~~~
 
 Por defecto, R devuelve lo que haya en la última línea de la función. Sin embargo, a veces queremos que nuestra función devuelva otra cosa. Para ello podemos usar el comando `return`. Veremos más sobre esto en el apartado de estructuras de control.
@@ -108,6 +108,16 @@ Un **bucle** define cuántas veces se debe repetir una cierta acción. El bucle 
 ~~~R
 for (i in 10:1) {
   print(paste("Quedan", i, "segundos para el despegue"))
+}
+~~~
+
+> Es muy frecuente empezar un bucle con un vector vacío ("inicializado") y luego ir rellenándolo con las operaciones del bucle. En este ejemplo vamos a rellenar un vector vacío con 100 muestras aleatorias de un color primario 
+
+~~~R
+colores_primarios <- c()
+for (i in 1:100) {
+  colores_primarios[i] <- sample(c("Magenta", "Cian", "Amarillo")
+                               , size = 1, replace = T)
 }
 ~~~
 
