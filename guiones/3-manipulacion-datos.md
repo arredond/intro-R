@@ -204,7 +204,7 @@ R tiene multitud de opciones para hacer gráficos; tantas, que puede resultar co
 ggplot(data = alturas_long, aes(x = year, y = altura))
 ~~~
 
-![alturas_init](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_init.png)
+![alturas_init](https://user-images.githubusercontent.com/19406854/36206008-2086d678-1191-11e8-9978-ee47d56dc756.png)
 
 Esto _inicializará_ el gráfico, que no tendrá datos pintados sobre él. Para pintarlos podemos añadirle una _capa de puntos_.
 
@@ -213,7 +213,7 @@ ggplot(data = alturas_long, aes(x = year, y = altura)) +
   geom_point()
 ~~~
 
-![alturas_año](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_año.png)
+![alturas_puntos](https://user-images.githubusercontent.com/19406854/36206012-214331ce-1191-11e8-8592-31f6aa5ad174.png)
 
 ¿Y si queremos que los puntos de cada niño aparezcan en un color diferente?
 
@@ -222,7 +222,7 @@ ggplot(data = alturas_long, aes(x = year, y = altura, color = nombre)) +
   geom_point()
 ~~~
 
-![alturas_nombre](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_nombre.png)
+![alturas_color](https://user-images.githubusercontent.com/19406854/36206003-203a870a-1191-11e8-8c95-e928ee377683.png)
 
 En vez de puntos, podemos pintar líneas:
 
@@ -231,7 +231,7 @@ ggplot(data = alturas_long, aes(x = year, y = altura, color = nombre)) +
   geom_line(group = nombre)
 ~~~
 
-![alturas_linea](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_linea.png)
+![alturas_linea](https://user-images.githubusercontent.com/19406854/36206009-20d4b2a8-1191-11e8-80c9-f081b074dd78.png)
 
 > Hemos tenido que añadir el argumento "group" para indicar cómo se unirán las líneas
 
@@ -243,7 +243,7 @@ ggplot(data = alturas_long, aes(x = year, y = altura, color = nombre)) +
   geom_point()
 ~~~
 
-![alturas_linea_punto](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_linea_punto.png)
+![alturas_linea_punto](https://user-images.githubusercontent.com/19406854/36206010-20fa18d6-1191-11e8-9402-68d10f8ecaf4.png)
 
 Los argumentos en el _aesthetic mapping_ (aes) de la función `ggplot` afectan a todas las capas. En su lugar, podemos definirlo individualmente:
 
@@ -253,7 +253,7 @@ ggplot(data = alturas_long, aes(x = year, y = altura)) +
   geom_point()
 ~~~
 
-![alturas_linea_punto_negro](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_linea_punto_negro.png)
+![alturas_linea_punto_negro](https://user-images.githubusercontent.com/19406854/36206011-211ffea2-1191-11e8-8781-87f81526ade6.png)
 
 #### Otros tipos de gráficos
 
@@ -264,7 +264,7 @@ ggplot(data = alturas_long, aes(x = altura)) +
   geom_histogram(bins = 4)
 ~~~
 
-![alturas_hist](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_boxplot.png)
+![alturas_hist](https://user-images.githubusercontent.com/19406854/36206005-20601ee8-1191-11e8-9cff-f9667b05087f.png)
 
 ###### Cajas y bigotes (boxplot)
 
@@ -272,6 +272,8 @@ ggplot(data = alturas_long, aes(x = altura)) +
 ggplot(data = alturas_long, aes(x = nombre, y = altura)) + 
   geom_boxplot()
 ~~~
+
+![alturas_boxplot](https://user-images.githubusercontent.com/19406854/36206002-20173fa2-1191-11e8-964e-02d7817b4660.png)
 
 ### 4. Flujo de trabajo
 

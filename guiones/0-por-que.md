@@ -44,7 +44,7 @@ CRAN (Comprehensive R Archive Network) es:
 
 CRAN alberga una enorme cantidad de librerías (más de 8000!) desarrolladas por personas de todo el mundo. Estas librerías son lo que hacen que R sea tan potente y versátil.
 
-![cran_evolution_2016](/home/arredond/learn_teach/intro-R/images/cran_evolution_2016.svg)
+![cran_evolution_2016](https://user-images.githubusercontent.com/19406854/36206029-2f7224f8-1191-11e8-847b-d6e960ec2e2c.png)
 
 ###### ¿Y por qué no otro lenguaje como Python o JavaScript?
 
@@ -54,9 +54,9 @@ Ambos lenguajes son tremendamente populares porque son lenguajes _generalistas_.
 
 Uno de los mayores retos al aprender a programar es el Síndrome de la Pantalla en Blanco. Otro es la frustración ante los miles de errores que aparecerán en pantalla. 
 
-![r_blank_screen](/home/arredond/learn_teach/intro-R/images/r_blank_screen.png)
+![r_blank_screen](https://user-images.githubusercontent.com/19406854/36206031-2fab035e-1191-11e8-9715-b95e624d2280.png)
 
-"¿Y ahora qué demonios hago yo?"
+> ¿Y ahora qué demonios hago yo?"
 
 Para paliar ambos, podemos utilizar un Entorno de Desarrollo Integrado (IDE): un software que incluya una consola de R y otras herramientas para hacer el desarrollo más sencillo, como consultar qué variables hemos creado, acceder a la ayuda o controlar varios "plots".
 
