@@ -56,7 +56,7 @@ Uno de los mayores retos al aprender a programar es el Síndrome de la Pantalla 
 
 ![r_blank_screen](https://user-images.githubusercontent.com/19406854/36206031-2fab035e-1191-11e8-9715-b95e624d2280.png)
 
-"¿Y ahora qué demonios hago yo?"
+> ¿Y ahora qué demonios hago yo?"
 
 Para paliar ambos, podemos utilizar un Entorno de Desarrollo Integrado (IDE): un software que incluya una consola de R y otras herramientas para hacer el desarrollo más sencillo, como consultar qué variables hemos creado, acceder a la ayuda o controlar varios "plots".
 
