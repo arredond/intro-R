@@ -80,6 +80,7 @@
 ![haversine](https://user-images.githubusercontent.com/19406854/36221248-c7a18cb0-11bd-11e8-9999-394da1b85888.png)
 
   Úsala para calcular la distancia entre Madrid (40.42, -3.7) y Toronto (43.65, -79.4).
+
 2. Vamos a dibujar árboles de navidad. Crea una función con el siguiente comportamiento:
 
    ~~~R
