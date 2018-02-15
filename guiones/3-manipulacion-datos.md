@@ -17,6 +17,7 @@ intro-R: Introducción a la Programación y Manipulación de Datos en R
    4. dplyr
    5. ggplot2
 4. Flujo de trabajo
+5. Automatización
 
 ----------------------
 
@@ -204,7 +205,7 @@ R tiene multitud de opciones para hacer gráficos; tantas, que puede resultar co
 ggplot(data = alturas_long, aes(x = year, y = altura))
 ~~~
 
-![alturas_init](https://user-images.githubusercontent.com/19406854/36206008-2086d678-1191-11e8-9978-ee47d56dc756.png)
+![alturas_init](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_init.png)
 
 Esto _inicializará_ el gráfico, que no tendrá datos pintados sobre él. Para pintarlos podemos añadirle una _capa de puntos_.
 
@@ -213,7 +214,7 @@ ggplot(data = alturas_long, aes(x = year, y = altura)) +
   geom_point()
 ~~~
 
-![alturas_puntos](https://user-images.githubusercontent.com/19406854/36206012-214331ce-1191-11e8-8592-31f6aa5ad174.png)
+![alturas_año](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_puntos.png)
 
 ¿Y si queremos que los puntos de cada niño aparezcan en un color diferente?
 
@@ -222,16 +223,16 @@ ggplot(data = alturas_long, aes(x = year, y = altura, color = nombre)) +
   geom_point()
 ~~~
 
-![alturas_color](https://user-images.githubusercontent.com/19406854/36206003-203a870a-1191-11e8-8c95-e928ee377683.png)
+![alturas_nombre](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_color.png)
 
 En vez de puntos, podemos pintar líneas:
 
 ~~~R
 ggplot(data = alturas_long, aes(x = year, y = altura, color = nombre)) + 
-  geom_line(group = nombre)
+  geom_line(aes(group = nombre))
 ~~~
 
-![alturas_linea](https://user-images.githubusercontent.com/19406854/36206009-20d4b2a8-1191-11e8-80c9-f081b074dd78.png)
+![alturas_linea](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_linea.png)
 
 > Hemos tenido que añadir el argumento "group" para indicar cómo se unirán las líneas
 
@@ -243,7 +244,7 @@ ggplot(data = alturas_long, aes(x = year, y = altura, color = nombre)) +
   geom_point()
 ~~~
 
-![alturas_linea_punto](https://user-images.githubusercontent.com/19406854/36206010-20fa18d6-1191-11e8-9402-68d10f8ecaf4.png)
+![alturas_linea_punto](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_linea_punto.png)
 
 Los argumentos en el _aesthetic mapping_ (aes) de la función `ggplot` afectan a todas las capas. En su lugar, podemos definirlo individualmente:
 
@@ -253,7 +254,7 @@ ggplot(data = alturas_long, aes(x = year, y = altura)) +
   geom_point()
 ~~~
 
-![alturas_linea_punto_negro](https://user-images.githubusercontent.com/19406854/36206011-211ffea2-1191-11e8-8781-87f81526ade6.png)
+![alturas_linea_punto_negro](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_linea_punto_negro.png)
 
 #### Otros tipos de gráficos
 
@@ -264,7 +265,7 @@ ggplot(data = alturas_long, aes(x = altura)) +
   geom_histogram(bins = 4)
 ~~~
 
-![alturas_hist](https://user-images.githubusercontent.com/19406854/36206005-20601ee8-1191-11e8-9cff-f9667b05087f.png)
+![alturas_hist](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_hist.png)
 
 ###### Cajas y bigotes (boxplot)
 
@@ -273,7 +274,7 @@ ggplot(data = alturas_long, aes(x = nombre, y = altura)) +
   geom_boxplot()
 ~~~
 
-![alturas_boxplot](https://user-images.githubusercontent.com/19406854/36206002-20173fa2-1191-11e8-964e-02d7817b4660.png)
+![alturas_boxplot](/home/arredond/learn_teach/intro-R/images/ggplot2/alturas_boxplot.png)
 
 ### 4. Flujo de trabajo
 
@@ -293,3 +294,23 @@ Una vez que se tienen los datos necesarios, conviene seguir un flujo de trabajo 
 8. Extraer conclusiones
 
 A los pasos 2, 3 y 4 se les conoce como _data wrangling_: convertir los datos brutos en algo utilizable. Aunque los modelos y los gráficos son la parte visible y apreciada, el _data wrangling_ es la etapa más fundamental  (y muchas veces complicada) de la manipulación.
+
+##### Automatización
+
+Como dijimos al principio de este curso, una de las grandes ventajas del _scripting_ es la automatización: poder repetir la misma tarea sobre multitud de archivos de una tacada.
+
+Con la estructura de trabajo correcta, un bucle (o una función _apply_) y la magia del Tidyverse, esto es pan comido.
+
+> Tengo un montón de ficheros en una carpeta llamada `carpeta_de_ficheros`, dentro de la carpeta `datos` de mi proyecto. Quiero leer todos los archivos, extraer los primeros 100 elementos y guardarlos en la carpeta `procesados`.
+
+~~~R
+## Extracción de los 100 primeros elementos de cada fichero
+setwd(".../proyecto/datos/carpeta_de_ficheros")
+library(tidyverse)
+for (fichero in list.files()) {
+  read_csv(fichero) %>% head(100) %>%
+    write_csv(paste(".../proyecto/datos/procesados/", 
+                    fichero, sep = ""))
+}
+~~~
+
