@@ -16,6 +16,5 @@ for (fichero in list.files()) {
               reviews = mean(reviews),
               overall_satisfaction = mean(overall_satisfaction)) %>%
     write_csv(paste(".../paris_procesados/",  # Tendrás que poner aquí tu propio "path"
-                    fichero, "_agregados.csv",
-                    sep = ""))
+                    fichero, sep = ""))
 }
