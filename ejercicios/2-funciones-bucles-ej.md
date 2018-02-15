@@ -58,9 +58,9 @@
 1. Crea un pequeño programa que recorra los números del 1 al 100 y saque en pantalla "par" o "impar" si el número es par o impar.
 
 2. Vamos a crear una función solucionadora de ecuaciones de segundo grado. Debe tomar tres argumentos de entrada, _a_, _b_ y _c_ tal que:
-   $$
-   x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}
-   $$
+
+![ecuacion_segundo_grado](https://user-images.githubusercontent.com/19406854/36221247-c77ef5ec-11bd-11e8-9d7b-ac57c190ccab.png)
+
    La función debe comprobar, primero, si el discriminante (lo que va dentro de la raíz cuadrada) es negativo, y de ser así devolver un mensaje como "La ecuación no tiene soluciones".
 
    Si el discriminante es positivo, calcula las dos soluciones posibles y devúelvelas en un solo vector.
@@ -76,21 +76,10 @@
 > Disclaimer: estos ejercicios pueden ser bastante complicados. Tómatelos con calma y no te frustres. Las soluciones están en el archivo "2-soluciones-avanzadas.md"
 
 1. Escribe una función que calcule la distancia entre dos puntos sobre la superficie terrestre, dadas una latitud y longitud. Tendrás que utilizar las fórmulas de Haversine:
-   $$
-   a^2 = sin(\frac{lat_2 - lat_1}{2})^2 + cos(lat_1) · cos(lat_ 2) · sin(\frac{lon_2 - lon_1}{2})^2
-   $$
 
-   $$
-   b^2 = 1 - a^2
-   $$
+![haversine](https://user-images.githubusercontent.com/19406854/36221248-c7a18cb0-11bd-11e8-9999-394da1b85888.png)
 
-   ​
-   $$
-   distancia = 2 · arctan(\frac{a}{b})
-   $$
-   Úsala para calcular la distancia entre Madrid (40.42, -3.7) y Toronto (43.65, -79.4) .
-
-   ​
+  Úsala para calcular la distancia entre Madrid (40.42, -3.7) y Toronto (43.65, -79.4).
 
 2. Vamos a dibujar árboles de navidad. Crea una función con el siguiente comportamiento:
 
@@ -113,8 +102,6 @@
    ~~~
 
    **Pista**: Tendrás que utilizar la opción `collapse = ""` cada vez que uses la función `paste`.
-
-3. Calcular distancia entre dos puntos sobre una esfera dadas latitud y longitud.
 
 4. Ejercicio de dinámica de poblaciones:
 
