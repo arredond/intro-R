@@ -4,6 +4,7 @@ setwd(".../paris")  # Tendrás que poner aquí tu propio "path"
 library(tidyverse)
 
 for (fichero in list.files()) {
+  nombre_guardar <- gsub(".csv", "_agregado.csv", fichero)
   read_csv(fichero) %>% 
     select(neighborhood,
            reviews,
@@ -16,5 +17,5 @@ for (fichero in list.files()) {
               reviews = mean(reviews),
               overall_satisfaction = mean(overall_satisfaction)) %>%
     write_csv(paste(".../paris_procesados/",  # Tendrás que poner aquí tu propio "path"
-                    fichero, sep = ""))
+                    nombre_guardar, sep = ""))
 }
