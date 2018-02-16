@@ -19,9 +19,9 @@ En el fichero comprimido `embalse.zip` encontrarás una serie de imágenes de sa
 4. Usa la función `stack` para importar el archivo de nuevo y sobreescribe el objeto que habías creado. Vuelve a ejecutar los comandos `plot` y `hist`. Deberías ver cinco gráficos en cada caso, uno por cada banda.
 
 5. Ahora vamos a calcular su Índice Diferencial de Vegetación Normalizado (NDVI). Este índice se calcula usando varias bandas de un ráster y sirve para identificar la vegetación. Tiene la siguiente fórmula:
-   $$
-   NDVI = \frac{IR_c - Rojo}{IR_c + Rojo}
-   $$
+
+![ndvi_formula](https://user-images.githubusercontent.com/19406854/36313229-384d7982-1331-11e8-9fac-61f78dabb8f0.png)
+
    En estas imágenes, la banda del rojo es la segunda y la del infrarrojo cercano, la quinta.
 
    1. Crea una función para calcular este índice.
@@ -36,6 +36,7 @@ En el fichero comprimido `embalse.zip` encontrarás una serie de imágenes de sa
 
    > Esto puede tardar un poco. Incluye un `print` en tu bucle para ver en la consola cuándo acaba de procesar cada raster.
 
+<<<<<<< HEAD
 
 #### Vector
 
@@ -58,3 +59,6 @@ En el fichero comprimido `embalse.zip` encontrarás una serie de imágenes de sa
 6. Añade a ese mapa una capa con los árboles. ¿Ves algún problema?
 
    > Ojo: los data frames de cada uno (barrios y árboles) son distintos. Tendrás que poner el argumento "data" dentro de cada capa individual.
+=======
+   ​
+>>>>>>> 11cdb2364d78725ca5339f87c4a74f1732a0acce
