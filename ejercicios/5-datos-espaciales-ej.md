@@ -36,4 +36,24 @@ En el fichero comprimido `embalse.zip` encontrarás una serie de imágenes de sa
 
    > Esto puede tardar un poco. Incluye un `print` en tu bucle para ver en la consola cuándo acaba de procesar cada raster.
 
-   ​
+#### Vector
+
+¿Recuerdas la tabla con árboles de Nueva York? Vamos a utilizar `sf` para averiguar a qué barrio pertenece cada uno.
+
+> Como siempre, crea un nuevo script y explica qué vas a hacer en él, además de fijar tu directorio de trabajo y llamar a las librerías que vayas a usar (en este caso, `tidyverse` y `sf`)
+
+1. Descarga el fichero `barrios.zip` y descomprímelo en la misma carpeta que `arboles_ny.csv`.
+
+2. Importa el fichero `arboles_ny.csv` y asígnalo al objeto `arboles`.
+
+3. Convierte el data frame `arboles` en un objeto espacial usando la función `st_as_sf`. 
+
+   > Al tener datos de latitud y longitud, tendrás que fijar el CRS como 4326 (lat/lon).
+
+4. Ahora importa el shapefile de los barrios usando `st_read` y guarda el objeto con el nombre `barrios`.
+
+5. Usa `ggplot2` para hacer mapa de los barrios de Nueva York.
+
+6. Añade a ese mapa una capa con los árboles. ¿Ves algún problema?
+
+   > Ojo: los data frames de cada uno (barrios y árboles) son distintos. Tendrás que poner el argumento "data" dentro de cada capa individual.
