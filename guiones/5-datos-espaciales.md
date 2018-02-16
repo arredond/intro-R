@@ -48,7 +48,7 @@ Se suele decir que el formato vectorial es más eficiente y ligero. ¿Es cierto 
 
 Pensemos en dos ejemplos:
 
-![road_above](/home/arredond/learn_teach/intro-R/images/road_above.jpg)
+![road_above](https://user-images.githubusercontent.com/19406854/36313236-3ae997de-1331-11e8-805e-05dc5b0727f6.jpg)
 
 > Fuente: https://iso.500px.com/10-tips-thatll-take-your-drone-photography-to-new-heights/
 
@@ -58,13 +58,14 @@ Pero... ¿y en este otro ejemplo?
 
 
 
-![chessboard](/home/arredond/learn_teach/intro-R/images/chessboard.png)
+![chessboard](https://user-images.githubusercontent.com/19406854/36313222-344255e2-1331-11e8-8497-2a9f6684c0f0.png)
+
 
 Aquí el formato _ráster_ es mucho más eficiente: solo tenemos que guardar un bit por celda, además del número de filas y columnas. En un formato vectorial guardaríamos cuatro puntos por cada cuadrado, además de asociar una tabla de atributos a cada uno.
 
 Es un ejemplo extremo pero no es muy distinto de este otro:
 
-![madrid](/home/arredond/learn_teach/intro-R/images/madrid.jpeg)
+![madrid](https://user-images.githubusercontent.com/19406854/36313226-35ea0250-1331-11e8-9707-09664339ac27.jpeg)
 
 En general, usaremos formatos **ráster para información continua** y **vector para información discreta**.
 
