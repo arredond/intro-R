@@ -26,7 +26,12 @@ intro-R: Introducción a la Programación y Manipulación de Datos en R
 
 ### 1. ¿Por qué R?
 
-La información espacial es 
+¿Por qué usar R para manejar datos espaciales?
+
+- **repetibilidad**
+- **soluciones "custom"**
+- velocidad
+- integración en nuestro flujo de trabajo
 
 ### 2. Raster vs. Vector
 
@@ -96,7 +101,7 @@ madrid         # Un resumen de toda esta información
 Podemos guardar nuestro ráster con la función `writeRaster`:
 
 ~~~R
-writeRaster(madrid, "ortofoto_madrid.tif", format = "GeoTIFF")
+writeRaster(madrid, "ortofoto_madrid.tif", format = "GTiff")
 ~~~
 
 ##### Bandas
