@@ -4,6 +4,7 @@
 
 [Haz click aquí](https://goo.gl/forms/Yp5rKjSRMqVxBGsH2)
 
+## Estructura
 - **Duración total**: 10 horas
 - Del **12 al 16 de febrero** (L - V)
 - **Horario:** 16:00 a 18:00
