@@ -1,17 +1,8 @@
 # Intro-R
 
-## Encuesta de valoración del curso
+## Próximos cursos
 
-[Haz click aquí](https://goo.gl/forms/Yp5rKjSRMqVxBGsH2)
-
-## Estructura
-- **Duración total**: 10 horas
-- Del **12 al 16 de febrero** (L - V)
-- **Horario:** 16:00 a 18:00
-- **Lugar:** Aula de Dibujo de la antigua E.U.I.T. Forestal
-- **Precio:** 10€
-
-**_IMPORTANTE_**: Este curso está completo. Si quieres apuntarte a la lista de espera puedes hacerlo [aquí](https://goo.gl/forms/Ofg1cqz99lGEPdMA3)
+Ahora mismo no hay ningún curso presencial programado. Si tienes alguna duda o sugerencia sobre los materiales disponibles puedes abrir un _Issue_ en este repositorio (haciendo click aquí.)[https://github.com/arredond/intro-R/issues]
 
 ## Introducción a la programación en R
 
@@ -20,8 +11,6 @@
 > Saber programar es una de las habilidades más importantes que puede tener un ingeniero/a de cualquier clase.
 
 En este curso en concreto podrás aprender los cimientos de cualquier lenguaje de programación (tipos de variables, creación de funciones...) pero también nos centraremos en una de las habilidades más importantes para un Ingeniero/a del Medio Natural: _el análisis y la visualización de datos._
-
-Puedes apuntarte haciendo click [en este formulario.](https://goo.gl/forms/Ofg1cqz99lGEPdMA3)
 
 #### ¿Para qué quiero aprender a programar? No voy a ser informático/a ni nada de eso...
 
