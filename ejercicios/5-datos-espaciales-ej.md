@@ -36,8 +36,6 @@ En el fichero comprimido `embalse.zip` encontrarás una serie de imágenes de sa
 
    > Esto puede tardar un poco. Incluye un `print` en tu bucle para ver en la consola cuándo acaba de procesar cada raster.
 
-<<<<<<< HEAD
-
 #### Vector
 
 ¿Recuerdas la tabla con árboles de Nueva York? Vamos a utilizar `sf` para averiguar a qué barrio pertenece cada uno.
@@ -52,13 +50,12 @@ En el fichero comprimido `embalse.zip` encontrarás una serie de imágenes de sa
 
    > Al tener datos de latitud y longitud, tendrás que fijar el CRS como 4326 (lat/lon).
 
-4. Ahora importa el shapefile de los barrios usando `st_read` y guarda el objeto con el nombre `barrios`.
+4. Vamos a añadir alcorques a los árboles. Usa la función `st_buffer` para añadir un buffer de 0.01 grados a cada árbol y gurdalo con el nombre "alcorques".
 
-5. Usa `ggplot2` para hacer mapa de los barrios de Nueva York.
+5. Ahora importa el shapefile de los barrios usando `st_read` y guarda el objeto con el nombre `barrios`.
 
-6. Añade a ese mapa una capa con los árboles. ¿Ves algún problema?
+6. Usa `ggplot2` para hacer mapa de los barrios de Nueva York.
+
+7. Añade a ese mapa una capa con los árboles. ¿Ves algún problema?
 
    > Ojo: los data frames de cada uno (barrios y árboles) son distintos. Tendrás que poner el argumento "data" dentro de cada capa individual.
-=======
-   ​
->>>>>>> 11cdb2364d78725ca5339f87c4a74f1732a0acce
