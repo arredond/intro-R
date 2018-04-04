@@ -2,7 +2,7 @@
 
 ## Próximos cursos
 
-Ahora mismo no hay ningún curso presencial programado. Si tienes alguna duda o sugerencia sobre los materiales disponibles puedes abrir un _Issue_ en este repositorio (haciendo click aquí.)[https://github.com/arredond/intro-R/issues]
+Ahora mismo no hay ningún curso presencial programado. Si tienes alguna duda o sugerencia sobre los materiales disponibles puedes abrir un _Issue_ en este repositorio [haciendo click aquí](https://github.com/arredond/intro-R/issues)
 
 ## Introducción a la programación en R
 
@@ -32,7 +32,7 @@ Al final, no importa tanto qué lenguaje uses. Yo empecé en R y, pese a haber u
 
 #### ¿A santo de qué viene este curso?
 
-Porque quiero devolver a la Escuela al menos una parte de lo mucho que me ha dado a mí. Pese a todo lo que aprendí, al acabar el Grado noté, como muchos otros/as, que me faltaban habilidades técnicas. La más flagrante: saber programar.
+Pese a todo lo que aprendí, al acabar el Grado noté, como muchos otros/as, que me faltaban habilidades técnicas. La más flagrante: saber programar.
 
 Casi todo lo que he aprendido lo he aprendido por mi cuenta. Y, aunque es una manera excelente de aprender, también lo es de frustrarse. 
 
